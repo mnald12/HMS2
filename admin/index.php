@@ -33,7 +33,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 card mt-5">
                 <div class="card-body">
-                    <h2 style="text-align: center; color: white;">HOTELBOOK</h2>
+                    <h2 style="text-align: center; color: white;">AMATEL</h2>
                     <h6 class="section-title text-center text-white text-uppercase mb-3">Luxury Living</h6>
                     <?php if(isset($_SESSION['login-message'])): ?>
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">

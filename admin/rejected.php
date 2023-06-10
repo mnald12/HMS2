@@ -87,7 +87,7 @@
                                 <tbody>
                                     <?php foreach( $bookings as $row): ?>
                                         <tr>
-                                            <td><?= $row['name'] ?></td>
+                                            <td><?= $row['first_name'] ." " .$row['last_name'] ?></td>
                                             <td><?= $row['room'] ?></td>
                                             <td><?= $row['check_in'] ?></td>
                                             <td><?= $row['check_out'] ?></td>
